@@ -42,6 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 3vh;
   border: 1px solid;
   border-radius: 20px;
@@ -49,32 +50,18 @@
   box-shadow: rgb(130, 120, 130) 10px 10px 8px;
 }
 
-@media (min-width: 761px) {
-  .portfolio__card-content {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3vh;
-    border: 1px solid;
-    border-radius: 20px;
-    box-shadow: rgb(130, 120, 130) 10px 10px 8px;
-  }
-}
-
 .portfolio__subtitle {
   color: #fff;
   font-family: "Poppins", sans-serif;
   text-shadow: none;
   font-size: 1.5em;
-  margin: 16px 0px 0px 0px;
+  margin: 0px;
 }
 
 .portfolio__img-content {
   width: 100%;
   height: 25vh;
   margin: 0px;
-  margin-bottom: 10px;
   border-radius: 20px 20px 0px 0px;
 }
 
@@ -85,10 +72,12 @@
 }
 
 .portfolio__parragraph {
-  margin: 10px 0px;
+  margin: 0;
   padding: 0px 10px;
   font-family: "Poppins", sans-serif;
   color: #fff;
+  max-height: 200px;
+  max-width: 500px;
 }
 
 .portfolio__link {

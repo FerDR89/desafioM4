@@ -170,7 +170,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 @media (min-width: 761px) {
