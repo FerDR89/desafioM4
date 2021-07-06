@@ -1,0 +1,88 @@
+.form__content--size {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 761px) {
+  .form__content--size {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 70px;
+  }
+}
+
+.form__content--bg {
+  background-color: inherit;
+  color: #fff;
+}
+
+.form__content-title {
+}
+
+@media (min-width: 761px) {
+  .form__content-title {
+    align-self: start;
+  }
+}
+
+.form__title {
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+.form__form-content--size {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5vh;
+}
+
+.form__label {
+  margin-bottom: 4px;
+  display: block;
+}
+
+.form__fieldset-input-name,
+.form__fieldset-input-email,
+.form__fieldset-message {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.form__input-name,
+.form__input-email,
+.form__input-message {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.form__input-name--height,
+.form__input-email--height {
+  height: 45px;
+}
+
+.form__input-message--height {
+  min-height: 113px;
+}
+
+.form__button-content--size {
+  width: 100%;
+  height: 45px;
+}
+
+.form__button {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-color: #2c2c2c;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
